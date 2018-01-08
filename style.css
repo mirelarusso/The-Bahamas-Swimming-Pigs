@@ -1,162 +1,197 @@
-
-html {
-	margin: 0;
-	padding: 0;
-	}
-body { 
-	font: 99% helvetica;
-	line-height: 1.88889;
-	background: rgb(228, 213, 213) no-repeat bottom right; 
-	margin: 0; 
-    padding: 0;
-    opacity: 1;
-	}
-p { 
-	margin-top: 0; 
-	text-align: justify;
-	}
-h3 { 
-    font: italic normal 1.4em helvetica;
-	letter-spacing: 1px; 
-	margin-bottom: 0; 
-	color: rgb(43, 139, 47);
-	}
-a:link { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #B7A5DF;
-	}
-a:visited { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #D4CDDC;
-	}
-a:hover, a:focus, a:active { 
-	text-decoration: underline; 
-	color: #9685BA;
-	}
-abbr {
-	border-bottom: none;
+    body {
+    font : 83%/150% verdana, arial;
+    color : #061314;
+    background : url(http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1488218031/hello-PIGALCOHOL0217_0.jpg?itok=4Hrw86DY) top;
     }
     
-.page-wrapper { 
-	background: url(http://flower-wallpaper.org/wp-content/uploads/2017/03/pictures-of-white-flowers1.jpeg) repeat top left; 
-	padding: 0 175px 0 110px;  
-	margin: 0; 
-    position: relative;
-    opacity: 0.6;
-	}
-
-.intro { 
-	min-width: 470px;
-	width: 100%;
-	}
-
-header h1 { 
-    background: url(https://seeklogo.com/images/S/Simplify-logo-8EE6EC8002-seeklogo.com.gif) no-repeat top left;
-	margin-top: 5px;
-	display: block;
-	width: 239px;
-	height: 187px;
-	float: left;
-
-	text-indent: 100%;
-	white-space: nowrap;
-    overflow: hidden;
-    opacity: 0.4;
-	}
-
-header {
-	padding-top: 20px;
-	height: 87px;
-}
-
-.summary {
-	clear: both; 
-	margin: 20px 20px 20px 10px; 
-	width: 160px; 
-	float: left;
-	}
-.summary p {
-	font: italic 1.1em/2.2 georgia; 
-	text-align: center;
-	}
-
-.preamble {
-	clear: right; 
-	padding: 0px 10px 0 10px;
-	}
-.supporting {	
-	padding-left: 10px; 
-	margin-bottom: 40px;
-	}
-.sidebar {
-	margin-left: 600px; 
-	position: absolute; 
-	top: 0; 
-	right: 0;
-	}
-.sidebar .wrapper { 
-	font: 10px verdana; 
-	background: transparent url(http://csszengarden.com/001/paper-bg.jpg) top left repeat-y; 
-	padding: 10px; 
-	margin-top: 150px; 
-	width: 130px; 
-	}
-.sidebar h3.select { 
-	background: transparent url(http://csszengarden.com/001/h3.gif) no-repeat top left; 
-	margin: 10px 0 5px 0; 
-	width: 97px; 
-	height: 16px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-.sidebar h3.archives { 
-	background: transparent url(http://csszengarden.com/001/h5.gif) no-repeat top left; 
-	margin: 25px 0 5px 0; 
-	width:57px; 
-	height: 14px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-.sidebar h3.resources { 
-	background: transparent no-repeat top left; 
-	margin: 25px 0 5px 0; 
-	width:63px; 
-	height: 10px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-
-.sidebar ul {
-	margin: 0;
-	padding: 0;
-	}
-.sidebar li {
-	line-height: 1.3em; 
-	background: transparent url(http://csszengarden.com/001/cr1.gif) no-repeat top center; 
-	display: block; 
-	padding-top: 5px; 
-	margin-bottom: 5px;
-	list-style-type: none;
-	}
-.sidebar li a:link {
-	color: #988F5E;
-	}
-.sidebar li a:visited {
-	color: rgb(114, 109, 81);
-	}
-.extra1 {
-	background: transparent url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5rE39lTCeygF7xtcUqnqA8HeL181owg3g0M5oE6e4SOnwil-q) top left no-repeat; 
-	position: absolute; 
-	top: 4px; 
-    right: 0; 
-	width: 148px; 
-	height: 160px;
-	}
+    p {
+    font : 83%/150% verdana, arial;
+    margin-top : 0;
+    text-align : justify;
+    }
+    h3 {
+    font : normal normal 100% verdana, arial;
+    letter-spacing : 1px;
+    margin-bottom : 0;
+    }
+    a:link {
+    font-weight : bold;
+    text-decoration : none;
+    color : rgb(28, 102, 57);
+    }
+    a:visited {
+        font-weight : bold;
+        text-decoration : none;
+        color : rgb(22, 87, 71);
+        }
+    a:hover, a:active {
+    text-decoration : none;
+    color : rgb(7, 46, 19);
+    border-bottom : 1px dotted;
+    }
+    .page-wrapper {
+    background : url(bg_hdr-csszengarden.jpg) top left no-repeat;
+    padding : 0;
+    margin : 0;
+    position : absolute;
+    top : 0;
+    left : 0;
+    width : 744px;
+    height : 326px;
+    }
+    header h1 {
+    display: center;
+    }
+    header h2 {
+    display : center;
+    }
+    .summary {
+    position : absolute;
+    top : 175px;
+    left : 26px;
+    width : 178px;
+    height : 150px;
+    color : #000;
+    overflow : auto;
+    }
+    .summary p {
+    font : 83%/133% verdana, arial;
+    text-align : left;
+    letter-spacing : 1px;
+    }
+    .preamble {
+    position : absolute;
+    top : 253px;
+    left : 255px;
+    width : 470px;
+    height : 200px;
+    overflow : auto;
+    }
+    .supporting {
+    position : absolute;
+    top : 466px;
+    left : 255px;
+    width : 470px;
+    }
+    footer {
+    text-align : center;
+    margin-bottom : 11px;
+    font : 83%/150% verdana, arial;
+    }
+    footer a:link, footer a:visited {
+    margin-right : 20px;
+    }
+    .preamble h3 {
+    background : url(bg_hdr_road-to.gif) top left no-repeat transparent;
+    }
+    .explanation h3 {
+    background : url(bg_hdr_what-is-this-about.gif) top left no-repeat transparent;
+    }
+    .participation h3 {
+    background : url(bg_hdr_participation.gif) top left no-repeat transparent;
+    }
+    .benefits h3 {
+    background : url(bg_hdr_benefits.gif) top left no-repeat transparent;
+    }
+    .requirements h3 {
+    background : url(bg_hdr_requirements.gif) top left no-repeat transparent;
+    }
+    .preamble h3, .explanation h3, .participation h3, .benefits h3, .requirements h3 {
+    margin : 0;
+    width : 420px;
+    height : 32px;
+    text-indent : 100%;
+    white-space : nowrap;
+    overflow : hidden;
+    }
+    .explanation, .participation, .benefits, .requirements {
+    margin-bottom : 22px;
+    }
+    .sidebar {
+    background : url(bg_nav-left.gif) top left repeat-y transparent;
+    position : absolute;
+    top : 330px;
+    left : 0;
+    width : 256px;
+    margin-top : -4px;
+    z-index : 1;
+    }
+    .sidebar .wrapper {
+    font : 82%/150% verdana, arial;
+    margin : 0;
+    background : url(bg_leftnav_bottom.jpg) bottom left no-repeat transparent;
+    }
+    .sidebar h3.select {
+    background : url(bg_hdr_select-a-design.gif) top left no-repeat transparent;
+    width : 256px;
+    height : 26px;
+    margin-top : 0;
+    margin-bottom : 11px;
+    margin-left : 0;
+    margin-right : 0;
+    text-indent : 100%;
+    white-space : nowrap;
+    overflow : hidden;
+    }
+    .sidebar h3.archives {
+    background : url(bg_hdr_archives.gif) top left no-repeat transparent;
+    width : 256px;
+    height : 26px;
+    text-indent : 100%;
+    white-space : nowrap;
+    overflow : hidden;
+    }
+    .sidebar h3.resources {
+    background : url(bg_hdr_resources.gif) top left no-repeat;
+    width : 256px;
+    height : 26px;
+    text-indent : 100%;
+    white-space : nowrap;
+    overflow : hidden;
+    }
+    .design-selection, .design-archives {
+    margin-bottom : 20px;
+    }
+    .design-selection h3, .design-archives h3, .zen-resources h3 {
+    margin-bottom : 11px;
+    }
+    .design-selection ul li, .design-archives ul li, .zen-resources ul li {
+    margin-left : 28px;
+    width : 160px;
+    }
+    .sidebar ul {
+    margin : 0;
+    padding : 0;
+    }
+    .sidebar li {
+    line-height : 2.5ex;
+    list-style-type : none;
+    background : url(cr1.gif) top center no-repeat transparent;
+    display : block;
+    padding-top : 5px;
+    margin-bottom : 5px;
+    }
+    .sidebar li a:link {
+    color : rgb(17, 66, 36);
+    }
+    .sidebar li a:visited {
+    color : rgb(9, 48, 15);
+    }
+    .design-selection ul a {
+    display : block;
+    font-weight : bold;
+    margin-bottom : -2px;
+    }
+    .design-selection ul a.designer-name {
+    display : inline;
+    font-weight : normal;
+    }
+    .design-selection ul a:hover {
+    color : #000;
+    text-decoration : none;
+    border : none;
+    }
+    .zen-resources {
+    background : url(bg_leftnav_bottom.jpg) bottom left no-repeat transparent;
+    padding-bottom : 165px;
+    }
