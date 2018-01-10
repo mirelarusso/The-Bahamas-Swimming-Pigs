@@ -1,9 +1,9 @@
-    body {
-    font : 83%/150% verdana, arial;
-    color : #061314;
+body {
+    font : 103%/170% arial;
+    color : #dcf5f7;
     background : url(http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1488218031/hello-PIGALCOHOL0217_0.jpg?itok=4Hrw86DY) top;
+    text-shadow: 1px 1px #352424;
     }
-    
     p {
     font : 83%/150% verdana, arial;
     margin-top : 0;
@@ -29,16 +29,6 @@
     color : rgb(7, 46, 19);
     border-bottom : 1px dotted;
     }
-    .page-wrapper {
-    background : url(bg_hdr-csszengarden.jpg) top left no-repeat;
-    padding : 0;
-    margin : 0;
-    position : absolute;
-    top : 0;
-    left : 0;
-    width : 744px;
-    height : 326px;
-    }
     header h1 {
     display: center;
     }
@@ -60,18 +50,18 @@
     letter-spacing : 1px;
     }
     .preamble {
-    position : absolute;
-    top : 253px;
-    left : 255px;
-    width : 470px;
-    height : 200px;
-    overflow : auto;
-    }
+        position : absolute;
+        top : 183px;
+        left : 255px;
+        width : 270px;
+        height : 200px;
+        overflow : auto;
+        }
     .supporting {
     position : absolute;
-    top : 466px;
+    top : 566px;
     left : 255px;
-    width : 470px;
+    width : 670px;
     }
     footer {
     text-align : center;
