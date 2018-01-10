@@ -37,7 +37,7 @@ body {
     }
     .summary {
     position : absolute;
-    top : 175px;
+    top : 190px;
     left : 26px;
     width : 178px;
     height : 150px;
@@ -71,21 +71,6 @@ body {
     footer a:link, footer a:visited {
     margin-right : 20px;
     }
-    .preamble h3 {
-    background : url(bg_hdr_road-to.gif) top left no-repeat transparent;
-    }
-    .explanation h3 {
-    background : url(bg_hdr_what-is-this-about.gif) top left no-repeat transparent;
-    }
-    .participation h3 {
-    background : url(bg_hdr_participation.gif) top left no-repeat transparent;
-    }
-    .benefits h3 {
-    background : url(bg_hdr_benefits.gif) top left no-repeat transparent;
-    }
-    .requirements h3 {
-    background : url(bg_hdr_requirements.gif) top left no-repeat transparent;
-    }
     
     .explanation, .participation, .benefits, .requirements {
     margin-bottom : 22px;
@@ -100,7 +85,7 @@ body {
     z-index : 1;
     }
     .sidebar .wrapper {
-    font : 82%/150% verdana, arial;
+    font : 82%/10% verdana, arial;
     margin : 0;
     background : url(bg_leftnav_bottom.jpg) bottom left no-repeat transparent;
     }
